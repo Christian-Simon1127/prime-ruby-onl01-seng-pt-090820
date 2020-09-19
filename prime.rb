@@ -12,5 +12,6 @@ def prime?(number)
       end
       counter += 1
     end
+  end
   value
 end
