@@ -3,7 +3,7 @@ def prime?(number)
   split_num = number/2
   counter = 2
   value = true
-  while counter <= |split_num|
+  while counter <= split_num
     if number % counter == 0
       value = false
     end
