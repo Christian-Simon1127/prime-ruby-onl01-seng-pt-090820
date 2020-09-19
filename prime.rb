@@ -3,7 +3,7 @@ def prime?(number)
   split_num = number/2
   counter = 2
   value = true
-  if number < 1
+  if number < 2
     value = false
   else 
     while counter <= split_num
